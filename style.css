@@ -65,3 +65,8 @@ strong {
 .nome {
     font-size: 35px;
 }
+#fotoPedro {
+    margin: 0 auto;
+    display: block;
+    border-radius: 200%;
+}
