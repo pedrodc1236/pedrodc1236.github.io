@@ -1,0 +1,67 @@
+h2 {
+    color: #b8dbd9;
+}
+
+#texto {
+    color: #edfbc1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #383961;
+}
+
+ul, li, a{
+    color: #F4F4F9
+}
+
+p {
+    color: #F5D3C8
+}
+
+#outraCor {
+    color: #edfbc1
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+strong {
+    color: #CFEE9E;
+}
+
+.link {
+    padding: 2%;
+    background-color: #5454a1;
+    text-align: center;   
+}
+.comunicação {
+    font-size: 25px;
+}
+.resiliência {
+    font-size: 24px;
+}
+.ambição {
+    font-size: 23px;
+}
+.carisma {
+    font-size: 22px;
+}
+.aptidão {
+    font-size: 21px;
+}
+.adaptabilidade {
+    font-size: 26px;
+}
+.integridade {
+    font-size: 27px;
+}
+.tamanho {
+    font-size: 30px;
+}
+.nome {
+    font-size: 35px;
+}
