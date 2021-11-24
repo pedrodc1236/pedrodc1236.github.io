@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Portfólio Web</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h2 class="nome">Pedro Henrique Tavares Rocha</h2>
-    <p class="tamanho">Índice com links internos para diferentes seções do Portfólio</p>
+
+    <p class="tamanho">
+      Índice com links internos para diferentes seções do Portfólio
+    </p>
     <ul>
-        <li><a href="#texto">Texto alternativo | Descrição da foto</a> </li>
-        <li><a href="#lista">Lista de Habilidades de Pedro</a> </li>
-        <li><a href="#foto">Link interno da foto de Pedro</a> </li>
-        <li><a href="#blog">Link interno do blog favorito de Pedro</a> </li>
+      <li><a href="#texto">Texto alternativo | Descrição da foto</a></li>
+      <li><a href="#lista">Lista de Habilidades de Pedro</a></li>
+      <li><a href="#foto">Link interno da foto de Pedro</a></li>
+      <li><a href="#blog">Link interno do blog favorito de Pedro</a></li>
     </ul>
-    <hr>
-    <img id="fotoPedro" src="/Foto-Pedro.jpg" alt="Foto de Pedro sorrindo" width="200px">
-    <p id="texto">Essa é uma das várias fotos tiradas com a minha turma da faculdade, para o álbum de formatura, tenho bastante carinho com ela pois o sorriso no meu rosto representa exatamente o que eu estava sentindo no momento, ao lado dos meus companheiros e amigos de sala, estava feliz por concluir com exatidão a minha graduação, além de estar aliviado, já que foi um caminho árduo e com muitos obstáculos. Porém graças a Deus e a minha mãe, consegui me formar, mesmo com dificuldades para pagar o curso.  </p>
-    <hr>
-    <p id="outraCor">Meu nome é <strong>Pedro</strong>, tenho 23 anos, <strong>brasileiro nato</strong>, residente e domiciliado na cidade de <strong>Dom Cavati</strong> no interior de <strong>Minas Gerais</strong> , recém graduado em Direito e atualmente <em>estudante de Desenvolvimento Web</em>.</p>
-    <hr>
+    <hr />
+
+    <div class="image-container">
+        <img
+        id="fotoPedro"
+        src="/Foto-Pedro.jpg"
+        alt="Foto de Pedro sorrindo"
+        width="200px"
+        />
+        <div > 
+            <p id="texto">
+            Essa é uma das várias fotos tiradas com a minha turma da faculdade, para o
+            álbum de formatura, tenho bastante carinho com ela pois o sorriso no meu
+            rosto representa exatamente o que eu estava sentindo no momento, ao lado
+            dos meus companheiros e amigos de sala, estava feliz por concluir com
+            exatidão a minha graduação, além de estar aliviado, já que foi um caminho
+            árduo e com muitos obstáculos. Porém graças a Deus e a minha mãe, consegui
+            me formar, mesmo com dificuldades para pagar o curso.
+        </p>
+        </div>
+    </div>
+
+    <hr />
+    <p id="outraCor">
+      Meu nome é <strong>Pedro</strong>, tenho 23 anos,
+      <strong>brasileiro nato</strong>, residente e domiciliado na cidade de
+      <strong>Dom Cavati</strong> no interior de <strong>Minas Gerais</strong> ,
+      recém graduado em Direito e atualmente
+      <em>estudante de Desenvolvimento Web</em>.
+    </p>
+    <hr />
     <p class="tamanho"><em>Lista de Habilidades de Pedro</em></p>
-    <ul id="lista">
+    <div class="cores-pares">
+        <ul id="lista">
         <li class="comunicação">Comunicação</li>
         <li class="resiliência">Resiliência</li>
         <li class="ambição">Ambição</li>
         <li class="carisma">Carisma</li>
         <li class="aptidão">Aptidão</li>
-    </ul>
+        </ul>
+    </div>
     <p class="tamanho">Com foco em:</p>
     <ul>
-        <li class="adaptabilidade">Adaptabilidade</li>
-        <li class="integridade">Integridade</li>
+      <li class="adaptabilidade">Adaptabilidade</li>
+      <li class="integridade">Integridade</li>
     </ul>
-    <hr>
-    <p class="tamanho" id="foto">Link para interno da foto de Pedro: </p>
+    <hr />
+    <p class="tamanho" id="foto">Link para interno da foto de Pedro:</p>
     <a class="link" href="/Foto-Pedro.jpg">Foto de Pedro</a>
-    <br> <br>
-    <hr>
-    <p class="tamanho" id="blog">Esse é um <strong>blog</strong> que leio des dos meus 12 anos de idade, e que me divertido muito a cada página passada:<br><br>
-    <a  class="link" href="https://www.leninja.com.br/"target="_Blank">LeNinja Blog</a> </p>
-
-</body>
+    <br />
+    <br />
+    <hr />
+    <p class="tamanho" id="blog">
+      Esse é um <strong>blog</strong> que leio des dos meus 12 anos de idade, e
+      que me divertido muito a cada página passada:<br /><br />
+      <a class="link" href="https://www.leninja.com.br/" target="_Blank"
+        >LeNinja Blog</a
+      >
+    </p>
+  </body>
 </html>
